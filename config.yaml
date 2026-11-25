@@ -1,0 +1,23 @@
+topic: "GTA 6"
+channels:            # creators to clip from (scout also searches YouTube generally)
+  - https://www.youtube.com/@IShowSpeed
+  - https://www.youtube.com/@N3on
+  - https://www.youtube.com/@CarryMinati
+  - https://www.youtube.com/channel/UC0IWRLai-BAwci_e9MylNGw   # CarryisLive (CarryMinati's live-stream channel)
+  - https://www.youtube.com/channel/UCx6F-rETGiz7xf_vkMmX2yQ   # Mythpat
+  - https://www.youtube.com/channel/UCvCfpQXRXdJdL07pzTIA6Cw   # Kai Cenat Live
+  - https://www.youtube.com/channel/UCFwKgzKe-EdTz83r6wzhmOw   # Live Insaan
+  - https://www.youtube.com/channel/UCl_vAxZpvbO-PFXdDu7EdHw   # Ujjwal
+  - https://www.youtube.com/channel/UC2wKfjlioOCLP4xQMOWNcgg   # Typical Gamer
+  - https://www.youtube.com/@realasianjeff   # AsianJeff (1.52M subs)
+  - https://www.youtube.com/channel/UCeoZXkaJDtdTHafgoZeDcAA   # Lacy (1.04M subs, Content Rewards campaign)
+  - https://www.youtube.com/channel/UC6STmDr5IHLnMyQMoh95HQQ   # BenDaDonnn Live (364K subs, Content Rewards campaign)
+  - https://www.youtube.com/channel/UCym0XKpmoSl594oT9yhEk0Q   # Clix (4.04M subs, Content Rewards campaign)
+  - https://www.youtube.com/channel/UCWyDCS2xtZgab_MUlhmpQZA   # YourRAGE (1.98M subs, Content Rewards campaign)
+  - https://www.youtube.com/channel/UCzPpbeK8ANcNKg5aoMB0miw   # Dylan Page (1.17M subs, Content Rewards campaign)
+  - https://www.youtube.com/channel/UCgB0Z0HFPqS17vzr3YLOySA   # Brett / BrettLiftsXP (23.5K subs, Content Rewards campaign)
+avoid_channels:      # footage from these already triggered a Content ID claim
+  - Techno Gamerz
+require_human_approval: true
+platforms: [instagram]   # YouTube paused (daily upload limit); add 'youtube' to resume
+ledger: data/ledger.json   # single record of every clip/source/post - agents read it first
